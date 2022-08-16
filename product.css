@@ -1,0 +1,76 @@
+.product-banner {
+    color: #fff;
+    height: 35rem;
+    background-image: linear-gradient(to right, #f2709b25, #ff937225), url('./images/aboutpage-banner.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-banner h2 {
+    font-size: 3.4rem;
+    font-weight: 600;
+}
+
+.product-banner p {
+    font-size: 1.8rem;
+}
+
+.breadcrumb {
+    justify-content: center;
+}
+
+.breadcrumb-item {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #0fb7cb;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
+
+.breadcrumb-item.active {
+    color: #fff;
+}
+
+.p-heading {
+    padding: 5rem 10rem 0;
+}
+
+.p-heading h1 {
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .p-heading {
+        padding: 4rem 6rem 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .p-heading {
+        padding: 3rem 3rem 0;
+    }
+    .p-heading h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .p-heading {
+        padding: 3rem 1rem 0;
+    }
+
+    .p-heading h1 {
+        font-size: 2.1rem;
+    }
+}
